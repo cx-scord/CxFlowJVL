@@ -31,7 +31,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - name: Checkmarx CxFlow Action
-      uses: satyamchaurasiapersitent/githubActionIssue@237ee02b6371f966a33ec1a3afd1c36d54b4b009
+      uses: satyamchaurasiapersistent/githubActionIssue@237ee02b6371f966a33ec1a3afd1c36d54b4b009
       with:
         project: ${{ github.repository }}-PR
         team: ${{ secrets.CHECKMARX_TEAMS }}
