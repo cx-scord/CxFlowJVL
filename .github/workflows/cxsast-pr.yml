@@ -5,7 +5,6 @@
 #   - CHECKMARX_USER
 #   - CHECKMARX_PASSWORD
 #   - CHECKMARX_CLIENT_SECRET
-#   - GH_TOKEN
 #
 # Update the 'team' field to reflect the team name used in Checkmarx.
 #
